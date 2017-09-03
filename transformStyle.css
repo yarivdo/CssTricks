@@ -1,0 +1,80 @@
+body{
+    font-size: 25px;
+    font-family: Arial;
+}
+
+#btnSave {
+    background-color: #0aad16;
+    border-style: solid;
+    border-color: #0aad16;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    transition: all 0.8s ease;
+        
+}
+
+#btnSave:hover {
+    width: 300px;
+}
+
+#btnTransforom {
+    background-color: #0a68ad;
+    border-style: solid;
+    border-color: #0a68ad;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 100px;
+    transition: all 0.8s ease;
+        
+}
+
+#btnTransforom:hover {
+    transform: rotate(90deg);
+    transition: transform 1.0s ease;
+    
+}
+
+.btnTrans {
+    background-color: #0aad16;
+    border-style: solid;
+    border-color: #0aad16;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 100px;
+    
+    position: absolute;
+    left: 10px;
+    top: 300px;
+    
+}
+
+#btnTwo {
+    background-color: #58bf5f;
+    border-color: #58bf5f;
+    width: 100px;
+    opacity: 0;
+    left: 150px;
+}
+#btnThree {
+    background-color: #92c395;
+    border-color: #92c395;
+    width: 50px;
+    opacity: 0;
+    left: 250px;
+}
+
+#btnEffects:hover > #btnTwo { 
+    
+    opacity: 1;
+    transition: opacity 1.0s ease;}
+
+#btnEffects:hover > #btnThree {
+    opacity: 1;
+    transition: opacity 2.5s ease;
+}
+
+
